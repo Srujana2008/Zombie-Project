@@ -5,7 +5,7 @@ class Base{
         }
         this.w = w;
         this.h = h;
-        this.body = Bodies.rectangle(x, y, this.w, this.h, options);
+        this.body = Bodies.rectangle(x, y, w, h, options);
         World.add(world, this.body);
     }
 
@@ -14,8 +14,8 @@ class Base{
         push();
         rectMode(CENTER);
         noStroke();
-        fill(81,44,44);
-        rect(po.x, pos.y, this.w, this.h);
+        fill(170,114,114);
+        rect(pos.x, pos.y, this.w, this.h);
         pop();
     }
 }
