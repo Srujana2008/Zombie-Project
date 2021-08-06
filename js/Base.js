@@ -12,6 +12,7 @@ class Base{
     reveal(){
         var pos = this.body.position;
         push();
+        translate(pos.x, pos.y);
         rectMode(CENTER);
         noStroke();
         fill(170,114,114);

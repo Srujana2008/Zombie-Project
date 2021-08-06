@@ -18,7 +18,7 @@ class Stone{
         fill("white");
         noStroke();
         ellipseMode(CENTER);
-        ellipse(this.body.position.x, this.body.position.y, this.w, this.h);
+        ellipse(0, 0, this.w, this.h);
         pop();
     }
 }
